@@ -259,6 +259,7 @@
 		81DB272D2619C4A200F7C0CF /* AuthServicesExample */ = {
 			isa = PBXGroup;
 			children = (
+				994440F02901EDBA00D23D56 /* New Group */,
 				81DB272E2619C4A300F7C0CF /* AuthServicesExampleApp.swift */,
 				8163F284261DC560006032CF /* Authentication */,
 				8163F285261DC5BB006032CF /* Cloud Data Storage */,
@@ -303,6 +304,13 @@
 				81DB27472619C71B00F7C0CF /* LocalAuthentication.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		994440F02901EDBA00D23D56 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "New Group";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -536,7 +544,7 @@
 				CODE_SIGN_ENTITLEMENTS = AuthServicesExample/AuthServicesExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AuthServicesExample/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MGUV4A48R3;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -553,7 +561,7 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.emilyliang.The-Happiness-Battery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -568,7 +576,7 @@
 				CODE_SIGN_ENTITLEMENTS = AuthServicesExample/AuthServicesExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AuthServicesExample/Preview Content\"";
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = MGUV4A48R3;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -586,7 +594,7 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "";
+				PRODUCT_BUNDLE_IDENTIFIER = "ca.emilyliang.The-Happiness-Battery";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
