@@ -10,15 +10,15 @@ import Foundation
 /*
  Each instance of this structure corresponds to a single row in this spreadsheet:
  
- https://docs.google.com/spreadsheets/d/1RfBwIAdBu7DOSMsOwYJOvcC5o3i7E1z6mBV2ZkEfAjQ/edit#gid=0
-
+ https://docs.google.com/spreadsheets/d/1IPuicQPUoetZC871kmeQEmjXj3j0ZUQ5kw_qc1xIQao/edit#gid=0
+ 
  The `id` property is the row number in the spreadsheet.
  
  Other properties match the columns of the spreadsheet, from left to right.
 
  The spreadsheet is accessed via this endpoint:
  
- https://api.sheety.co/92d7eb80d996eaeb34616393ebc6ddcf/visitors/rows
+ https://api.sheety.co/95ac3b4cd92d6cfc846bab442f4dd597/happinessBatteryUsers/entryList
  
  */
 /// - Tag: spreadsheet_row_structure

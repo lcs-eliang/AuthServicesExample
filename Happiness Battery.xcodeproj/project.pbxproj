@@ -45,6 +45,7 @@
 		81DB275D2619CDFE00F7C0CF /* GoogleSignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81DB275C2619CDFE00F7C0CF /* GoogleSignInView.swift */; };
 		81FE7D582619DD0900F612B7 /* GoogleAuthenticationDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FE7D572619DD0900F612B7 /* GoogleAuthenticationDelegate.swift */; };
 		81FE7D5C2619E02E00F612B7 /* GoogleUserInfoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81FE7D5B2619E02E00F612B7 /* GoogleUserInfoView.swift */; };
+		99770B8C293950DE0033A138 /* credentials.plist in Resources */ = {isa = PBXBuildFile; fileRef = 99770B8B293950DE0033A138 /* credentials.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -74,7 +75,7 @@
 		81A3BD65261B3FAD0056813B /* AppleAuthentication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleAuthentication.swift; sourceTree = "<group>"; };
 		81A3BD69261B40F40056813B /* AppleUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleUserInfoView.swift; sourceTree = "<group>"; };
 		81A3BD6D261B410B0056813B /* AppleSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleSignInView.swift; sourceTree = "<group>"; };
-		81DB272B2619C4A200F7C0CF /* AuthServicesExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AuthServicesExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		81DB272B2619C4A200F7C0CF /* Happiness Battery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Happiness Battery.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81DB272E2619C4A300F7C0CF /* AuthServicesExampleApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthServicesExampleApp.swift; sourceTree = "<group>"; };
 		81DB27302619C4A300F7C0CF /* WelcomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeView.swift; sourceTree = "<group>"; };
 		81DB27322619C4A400F7C0CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -92,6 +93,7 @@
 		81DB275C2619CDFE00F7C0CF /* GoogleSignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleSignInView.swift; sourceTree = "<group>"; };
 		81FE7D572619DD0900F612B7 /* GoogleAuthenticationDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleAuthenticationDelegate.swift; sourceTree = "<group>"; };
 		81FE7D5B2619E02E00F612B7 /* GoogleUserInfoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleUserInfoView.swift; sourceTree = "<group>"; };
+		99770B8B293950DE0033A138 /* credentials.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = credentials.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -242,6 +244,7 @@
 			children = (
 				8185F1F8261C7F080063142D /* README.md */,
 				8163F2B2261E268A006032CF /* LICENSE.txt */,
+				99770B8B293950DE0033A138 /* credentials.plist */,
 				81DB272D2619C4A200F7C0CF /* AuthServicesExample */,
 				81DB272C2619C4A200F7C0CF /* Products */,
 				81DB27462619C71B00F7C0CF /* Frameworks */,
@@ -251,7 +254,7 @@
 		81DB272C2619C4A200F7C0CF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				81DB272B2619C4A200F7C0CF /* AuthServicesExample.app */,
+				81DB272B2619C4A200F7C0CF /* Happiness Battery.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -316,9 +319,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		81DB272A2619C4A200F7C0CF /* AuthServicesExample */ = {
+		81DB272A2619C4A200F7C0CF /* Happiness Battery */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 81DB273A2619C4A400F7C0CF /* Build configuration list for PBXNativeTarget "AuthServicesExample" */;
+			buildConfigurationList = 81DB273A2619C4A400F7C0CF /* Build configuration list for PBXNativeTarget "Happiness Battery" */;
 			buildPhases = (
 				81DB27272619C4A200F7C0CF /* Sources */,
 				81DB27282619C4A200F7C0CF /* Frameworks */,
@@ -328,9 +331,9 @@
 			);
 			dependencies = (
 			);
-			name = AuthServicesExample;
+			name = "Happiness Battery";
 			productName = AuthServicesExample;
-			productReference = 81DB272B2619C4A200F7C0CF /* AuthServicesExample.app */;
+			productReference = 81DB272B2619C4A200F7C0CF /* Happiness Battery.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -347,7 +350,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 81DB27262619C4A200F7C0CF /* Build configuration list for PBXProject "AuthServicesExample" */;
+			buildConfigurationList = 81DB27262619C4A200F7C0CF /* Build configuration list for PBXProject "Happiness Battery" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -360,7 +363,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				81DB272A2619C4A200F7C0CF /* AuthServicesExample */,
+				81DB272A2619C4A200F7C0CF /* Happiness Battery */,
 			);
 		};
 /* End PBXProject section */
@@ -371,6 +374,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8163F29A261DD395006032CF /* GoogleSignIn.bundle in Resources */,
+				99770B8C293950DE0033A138 /* credentials.plist in Resources */,
 				81DB27362619C4A400F7C0CF /* Preview Assets.xcassets in Resources */,
 				81DB27332619C4A400F7C0CF /* Assets.xcassets in Resources */,
 			);
@@ -544,7 +548,7 @@
 				CODE_SIGN_ENTITLEMENTS = AuthServicesExample/AuthServicesExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AuthServicesExample/Preview Content\"";
-				DEVELOPMENT_TEAM = MGUV4A48R3;
+				DEVELOPMENT_TEAM = 4UG443984D;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -561,7 +565,7 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.emilyliang.The-Happiness-Battery";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilyliang.Happiness.Battery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -576,7 +580,7 @@
 				CODE_SIGN_ENTITLEMENTS = AuthServicesExample/AuthServicesExample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"AuthServicesExample/Preview Content\"";
-				DEVELOPMENT_TEAM = MGUV4A48R3;
+				DEVELOPMENT_TEAM = 4UG443984D;
 				ENABLE_PREVIEWS = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -594,7 +598,7 @@
 					"$(OTHER_LDFLAGS)",
 					"-ObjC",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "ca.emilyliang.The-Happiness-Battery";
+				PRODUCT_BUNDLE_IDENTIFIER = com.emilyliang.Happiness.Battery;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -604,7 +608,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		81DB27262619C4A200F7C0CF /* Build configuration list for PBXProject "AuthServicesExample" */ = {
+		81DB27262619C4A200F7C0CF /* Build configuration list for PBXProject "Happiness Battery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81DB27382619C4A400F7C0CF /* Debug */,
@@ -613,7 +617,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		81DB273A2619C4A400F7C0CF /* Build configuration list for PBXNativeTarget "AuthServicesExample" */ = {
+		81DB273A2619C4A400F7C0CF /* Build configuration list for PBXNativeTarget "Happiness Battery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				81DB273B2619C4A400F7C0CF /* Debug */,

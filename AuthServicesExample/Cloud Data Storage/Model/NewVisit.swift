@@ -21,7 +21,7 @@ import Foundation
 struct NewVisit: Codable {
     
     // NOTE: Sheety requires that the property name be "row"
-    let row: Visit
+    let entrylist: Visit
 
     // Sends the new row to the endpoint
     func encodeAndWriteToEndpoint() throws {

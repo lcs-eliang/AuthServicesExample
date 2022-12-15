@@ -14,7 +14,7 @@ import Foundation
  
  ... accessed via this endpoint:
  
- https://api.sheety.co/92d7eb80d996eaeb34616393ebc6ddcf/visitors/rows
+ https://api.sheety.co/95ac3b4cd92d6cfc846bab442f4dd597/happinessBatteryUsers/entryList
  
  Or optionally, load data from a local JSON file.
  
@@ -88,7 +88,7 @@ class VisitorsStore: ObservableObject {
                 DispatchQueue.main.async {
                     
                     // Set the list of visitors that have been downloaded
-                    self.visitors.rows = decodedData.rows
+                    self.visitors.entryList = decodedData.entryList
                                             
                 }
 
@@ -123,7 +123,7 @@ class VisitorsStore: ObservableObject {
                 #endif
                 
                 // Set the list of visitors
-                self.visitors.rows = decodedData.rows
+                self.visitors.entryList = decodedData.entryList
                                     
             } catch {
 

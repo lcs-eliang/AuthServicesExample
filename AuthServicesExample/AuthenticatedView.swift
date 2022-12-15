@@ -76,7 +76,7 @@ struct AuthenticatedView: View {
                     .bold()
                     .padding(.top)
                 
-                Text("\(dataStore.visitors.rows.count + moodShareCount) people have shared their mood.")
+                Text("\(dataStore.visitors.entryList.count + moodShareCount) people have shared their mood.")
             }
             
             // Sign out button for whatever service the user signed in with
@@ -108,7 +108,7 @@ struct AuthenticatedView: View {
                               mood: Int(mood))
         
         // Set visit information up to be sent to remote spreadsheet
-        let newRowInSpreadsheet = NewVisit(row: thisVisit)
+        let newRowInSpreadsheet = NewVisit(entrylist: thisVisit)
         
         // Actually encode and send the user's information
         do {
